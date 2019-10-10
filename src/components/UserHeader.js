@@ -8,10 +8,10 @@ class UserHeader extends Component {
      if(!user) return <div>Loading...</div>
      
      return (<div>
-        <a className="ui teal image label" href="#">
+        <div className="ui teal image label">
           {user.name}
           <div className="detail">Author</div>
-        </a>
+        </div>
     </div>
      );
   }
